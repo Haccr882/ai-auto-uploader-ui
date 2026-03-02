@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Auto Uploader</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Upload</a>
+  <a href="dashboard.html">Dashboard</a>
+  <a href="history.html">History</a>
+  <a href="plans.html">Plans</a>
+  <a href="settings.html">Settings</a>
+</nav>
+
+<div class="container">
+  <h1>AI Auto Video Uploader</h1>
+
+  <input type="file" id="video">
+  <button onclick="uploadVideo()">Upload & Generate</button>
+
+  <div id="loader" class="hidden">⏳ Processing with AI...</div>
+  <div id="status"></div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
